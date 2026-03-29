@@ -483,12 +483,12 @@ Expected output: "All tests passed ✓"
 If you use this code in your research, please cite:
 
 ```bibtex
-@phdthesis{yourname2026gwcadee,
+@gsgibbs{ggibbs2026gwcadee,
   title={GW-CADEE: Distance Correlation-Based Mutual Information Estimation},
-  author={Your Name},
+  author={Gregory Gibbs},
   year={2026},
-  school={Your University},
-  note={GitHub: https://github.com/yourusername/gw-cadee}
+  school={Meharry Medical College},
+  note={GitHub: https://github.com/gsgibbs/gw-cadee}
 }
 ```
 
@@ -498,7 +498,8 @@ If you use this code in your research, please cite:
 
 2. Kraskov, A., Stögbauer, H., & Grassberger, P. (2004). Estimating mutual information. *Physical Review E*, 69(6), 066138.
 
-3. Original CADEE paper citation [to be added]
+3. Ariel G and Louzoun Y. Estimating Differential Entropy using Recursive Copula Splitting. Entropy
+2020;22:236.
 
 ---
 
