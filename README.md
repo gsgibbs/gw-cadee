@@ -13,5 +13,5 @@ This repository includes:
    - Download from UCI Machine Learning Repository
    - See: `data/README_DATASETS.txt` for instructions
 
-3. **White Wine Quality** (results included)
-   - Pre-computed results in `data/final_wine_results.csv`
+3. **White Wine Quality** (included)
+   - Pre-computed results in `data/winequality-white copy.csv`
