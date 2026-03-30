@@ -44,7 +44,7 @@ y = df['quadratic_y'].values
 
 ---
 
-### 2. final_wine_results.csv ✓ INCLUDED
+### 2. winequality-white.csv ✓ INCLUDED
 **Size**: ~1 KB  
 **Source**: Pre-computed results  
 **Purpose**: White Wine Quality analysis results  
@@ -57,7 +57,7 @@ y = df['quadratic_y'].values
 
 **Usage**: Load directly for analysis
 ```python
-df = pd.read_csv('data/final_wine_results.csv')
+df = pd.read_csv('data/winequality-white.csv')
 ```
 
 ---
@@ -105,7 +105,7 @@ mv wdbc.data dataset2_wisconsin_breast_cancer.csv
 |---------|------|-----------|------|---------|----------|----------------|
 | **Ariel Synthetic** | ariel_synthetic_dataset.csv | ✓ Yes | 500 KB | 1,000 | 22 | 11 |
 | **Breast Cancer** | dataset2_wisconsin_breast_cancer.csv | ✗ Download | 100 KB | 569 | 30 | 30 |
-| **White Wine** | final_wine_results.csv | ✓ Yes | 1 KB | 4,898* | 11* | 10 |
+| **White Wine** | winequality-white.csv.csv | ✓ Yes | 1 KB | 4,898* | 11* | 10 |
 
 *Wine: Pre-computed results only (original dataset not needed)
 
@@ -125,7 +125,7 @@ ariel = pd.read_csv('data/ariel_synthetic_dataset.csv')
 cancer = pd.read_csv('data/dataset2_wisconsin_breast_cancer.csv')
 
 # Load Wine results
-wine = pd.read_csv('data/final_wine_results.csv')
+wine = pd.read_csv('data/winequality-white.csv.csv')
 
 # Run analysis
 python src/REPRODUCIBLE_CODE.py
